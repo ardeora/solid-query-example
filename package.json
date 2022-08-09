@@ -16,7 +16,7 @@
     "vite-plugin-solid": "^2.2.6"
   },
   "dependencies": {
-    "@adeora/solid-query": "^0.0.6",
+    "@adeora/solid-query": "^0.0.7",
     "solid-icons": "^0.4.13",
     "solid-js": "^1.4.2"
   }
