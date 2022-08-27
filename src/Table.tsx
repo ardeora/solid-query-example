@@ -19,8 +19,8 @@ export const Table = () => {
   const [page, setPage] = createSignal(1);
 
   const query = createQuery(
-    ['users', page],
-    async ({ queryKey }: { queryKey: [string, number] }) => {
+    () => ['users', page()],
+    async ({ queryKey }) => {
       const [id, pageNo] = queryKey;
 
       await timeout(750);
